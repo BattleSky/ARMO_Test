@@ -18,6 +18,7 @@ namespace ARMO_Test1
             {
             Size = new Size(600, 850);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             var baseSize = new Size(ClientSize.Width, 30);
             DoubleBuffered = true;
             Text = "Поиск файлов (ARMO_Test)";
